@@ -155,7 +155,8 @@ router.post("/bucket/:bathroomId", auth, async (req, res) => {
       user.favorites = user.favorites.filter(id => !id.equals(bathroomId));
       user.shitInCount = user.favorites.length;
     }
-    user.bucketList.push(bathroomId);
+    // Add to beginning of array so newest items appear at top
+    user.bucketList.unshift(bathroomId);
   }
   user.bucketListCount = user.bucketList.length;
   await user.save();

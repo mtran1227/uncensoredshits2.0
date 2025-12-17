@@ -101,6 +101,7 @@ const BucketList = () => {
           return true;
         });
         
+        // Backend returns items with newest first (due to unshift), so display as-is
         setBucketList(finalBucketList);
         setLoading(false);
       })
@@ -227,6 +228,8 @@ const BucketList = () => {
         return true;
       });
       
+      // Backend returns items in order (newest first due to unshift), so maintain that order
+      // The newly added bathroom should already be at the top from the API response
       setBucketList(finalBucketList);
       
       setShowAddModal(false);
