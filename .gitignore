@@ -5,6 +5,8 @@ server/node_modules/
 
 # Environment variables
 .env
+client/.env
+server/.env
 .env.local
 .env.development.local
 .env.test.local
