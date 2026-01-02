@@ -1,9 +1,9 @@
-# Uncensoredsh-ts
+# Uncensoredshits
 
 Need a sh*t?  
 Uncensoredsh-ts is a full stack NYU bathroom ranking web application designed to help students find reliable bathrooms fast. The platform allows users to browse, rate, and review bathrooms across NYU’s campus using real student feedback and an interactive map, so no one has to gamble on a bad stall again.
 
-Built with React, Node.js, Express, MongoDB, and the Google Maps JavaScript API, Uncensoredsh-ts combines real world utility with humor, honest reviews, and location based discovery.
+Built with React, Node.js, Express, MongoDB, and the Google Maps JavaScript API, Uncensoredshits combines real world utility with humor, honest reviews, and location based discovery.
 
 ## Features
 
